@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.introduction {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.introduction h2 {
+  font-size: 4rem;
+}
+.introduction button {
+  border: none;
+  background: #303033;
+  padding: 1rem 3rem;
+  cursor: pointer;
+}
+.introduction button:hover {
+  background: rgb(49, 106, 142);
+}
+
+footer {
+  text-align: center;
+  color: rgb(37, 118, 91);
+}/*# sourceMappingURL=style.css.map */
